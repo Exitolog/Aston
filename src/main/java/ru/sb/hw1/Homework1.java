@@ -1,4 +1,4 @@
-package ru.sb.week1.hw1;
+package ru.sb.hw1;
 
 import java.util.*;
 

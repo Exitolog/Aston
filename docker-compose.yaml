@@ -1,0 +1,18 @@
+
+services:
+  tomcat:
+    ports:
+      - 8080:8080
+    image: tomcat:latest
+    container_name: servlet_hw_tomcat
+    depends_on:
+      - db
+  db:
+    ports:
+      - 5431:5432
+    image: postgres:latest
+    container_name: servlet_hw_db
+    environment:
+      - POSTGRES_DB=my_db
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres

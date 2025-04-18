@@ -1,6 +1,7 @@
 package ru.sb.week1.hw1;
 
 import org.junit.Test;
+import ru.sb.hw1.MyLinkedList;
 
 import java.util.Comparator;
 

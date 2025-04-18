@@ -1,10 +1,9 @@
 package ru.sb.week1.hw1;
 
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
+import ru.sb.hw1.MyArrayList;
 
 import java.util.Comparator;
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 
